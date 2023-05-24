@@ -3,7 +3,7 @@ import Categories from "./componets/Categories"
 import GifsExpo from "./GifsExpo"
 
 function App() {
-  const [categories, setCategories] = useState(["Robotech", "Naruto"])
+  const [categories, setCategories] = useState(["Code Geass", "Naruto"])
 
   return (
     <div className="m-5">
