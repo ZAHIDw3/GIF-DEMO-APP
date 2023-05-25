@@ -18,6 +18,7 @@ const CategoryInput = ({categories = [], setCategories}) => {
                 onChange={(e)=> handleInputChange(e)}
                 placeholder="Write Category name"
                 type="text"
+                value={inputValue}
             />
             <button
                 onClick={(e)=> handleAddCategoryButton(e)}
