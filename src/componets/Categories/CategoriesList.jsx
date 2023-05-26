@@ -4,6 +4,7 @@ const CategoriesList = ({ categories = [], setCategories }) => {
         const newList =categories.filter((cat) => cat!== category)
         setCategories([...newList])
     }
+    
     return (
         <ol>
             {
